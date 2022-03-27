@@ -1,0 +1,29 @@
+.navigation{
+  padding-top: 20px !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+}
+
+
+
+.header_link {
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  /* color: #150c01 !important; */
+  color: #150C01 !important;
+  transition: all 0.5s ease-out !important;
+  opacity: 0.6;
+}
+
+.header_link_active {
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  color: #dc780b !important;
+  transition: all 0.5s ease-out !important;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  margin-left: 10px;
+}

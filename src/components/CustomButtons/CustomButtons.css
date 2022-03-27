@@ -1,18 +1,40 @@
 .custom_btn {
   background-color: #dc780b !important;
+  font-size: 16px !important ;
+  font-weight: 500 !important;
   border: 0 !important;
   border-radius: 5px !important;
-  padding: 13px 30px !important;
+  padding: 1px 12px !important;
+  line-height: 29px !important;
+  min-width: 100px !important;
   outline: none !important;
+  width: 155px !important;
+  height: 46px !important;
+  color: #fff !important;
+  
+}
+
+.custom_btn .btn_icon_container {
+  border-radius: 50px !important;
+  width: 155px !important;
+  height: 46px !important;
+  line-height: 29px !important;
+  text-align: center !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 .custom_btn .btn_icon_container > .MuiSvgIcon-root {
   font-size: 16px !important;
 }
 .custom_btn .btn_text {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 19px;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  text-transform: none !important;
   text-align: center;
-  color: red !important;
+  width: 100%;
+  margin-right: 5px;
+  margin-left: 5px;
 }
