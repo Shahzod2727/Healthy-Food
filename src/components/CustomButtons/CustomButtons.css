@@ -1,0 +1,18 @@
+.custom_btn {
+  background-color: #dc780b !important;
+  border: 0 !important;
+  border-radius: 5px !important;
+  padding: 13px 30px !important;
+  outline: none !important;
+}
+
+.custom_btn .btn_icon_container > .MuiSvgIcon-root {
+  font-size: 16px !important;
+}
+.custom_btn .btn_text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: red !important;
+}
