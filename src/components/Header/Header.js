@@ -22,7 +22,7 @@ const Header = () => {
             You need not only Just Food Stalls with Persons but also specialized
             equipment,
           </p>
-          <div>
+          <div className="btn">
             <CustomButtons text='Order Now'/>
           </div>
         </Col>
