@@ -23,7 +23,7 @@ const Header = () => {
             equipment,
           </p>
           <div className="btn">
-            <CustomButtons text='Order Now'/>
+            <CustomButtons text="Order Now" />
           </div>
         </Col>
         <Col md={6} className="header_left">

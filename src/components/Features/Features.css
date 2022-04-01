@@ -1,3 +1,16 @@
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --varyDarkBlue: hsl(234, 12%, 34%);
+  --grayishBlue: hsl(229, 6%, 66%);
+  --veryLightGray: hsl(0, 0%, 98%);
+  --weight1: 200;
+  --weight2: 400;
+  --weight3: 600;
+}
+
 .featurs-navbar {
   text-align: center;
   margin-top: 100px;
@@ -21,4 +34,110 @@
   text-transform: capitalize;
   color: #150c01;
   margin-top: 7px;
+}
+
+.card-wrapper {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center !important;
+  margin-top: 40px;
+}
+
+.card-wrapper .cards {
+  text-align: center;
+  box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+  padding: 5px 20px;
+  margin: 0 20px;
+  transition: all 0.4s ease;
+}
+.card-wrapper .cards:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.cards-img {
+  width: 90px;
+  height: 90px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.cards-title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 24px;
+  color: #150c01;
+}
+
+.cards-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #150c01;
+  opacity: 0.7;
+}
+
+.woman {
+  border-radius: 50px !important;
+  margin-top: 20px;
+}
+.about {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  justify-content: space-between;
+  /* justify-content: space-around; */
+  padding: 20px;
+}
+.about-text{
+  padding: 0px  10px 0px 100px;
+}
+.about .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #dc780b;
+  opacity: 0.7;
+}
+
+.about .subtitle {
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 41px;
+  color: #150c01;
+}
+
+.about .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #150c01;
+  opacity: 0.7;
+}
+
+@media (max-width: 900px) {
+  .card-wrapper {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .card-wrapper .cards {
+    margin-top: 20px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .about-text{
+    margin-top: 20px;
+    padding: 0px  20px 0px 20px;
+  }
 }
