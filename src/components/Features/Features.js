@@ -1,4 +1,6 @@
-import React from "react";
+import React,{useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { Nav, Navbar, NavDropdown, Container, Row, Col } from "react-bootstrap";
 // import resumeDate from "./../utils/resumeDate";
 import resumeDate from "./../../utils/resumeDate";
@@ -13,6 +15,13 @@ const Features = () => {
   // Large	lg	≥992px
   // Extra large	xl	≥1200px
   // Extra extra large	xxl	≥1400px
+  useEffect(() =>{
+    AOS.init({
+      duration:1500,
+      once: true, 
+    })
+  })
+  
 
   return (
     <Container>
@@ -28,8 +37,8 @@ const Features = () => {
         {" "}
         <Col>
           <div className="card-wrapper">
-            {resumeDate.features.map((featur) => (
-              <div className="cards">
+            {resumeDate.features.map((featur, i) => (
+              <div key={i} className="cards" data-aos="zoom-in-down">
                 <img src={featur.img} className="cards-img" />
 
                 <h1 className="cards-title">{featur.title}</h1>
@@ -40,10 +49,10 @@ const Features = () => {
         </Col>
       </Row>
       <Row className="about">
-        <Col md={6}>
+        <Col md={6} data-aos="fade-right">
           <img className="woman" src={Woman} />
         </Col>
-        <Col md={6} className='about-text'>
+        <Col md={6} className="about-text" data-aos="fade-left">
           <h2 className="title">About us</h2>
           <h1 className="subtitle">
             Food Stalls with Persons but to Product marketing plane catlogues

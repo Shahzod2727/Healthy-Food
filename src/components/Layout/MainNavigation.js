@@ -18,7 +18,7 @@ const MainNavigation = (props) => {
   const pathName = props?.location?.pathname;
   return (
     <Navbar bg="light" expand="md" className="navigation" sticky="top">
-      <Container maxWidth="xl">
+      <Container>
         <Navbar.Brand as={NavLink} to="/">
           <img src={Logo} />
         </Navbar.Brand>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Col, Row, Image } from "react-bootstrap";
+import { Container} from "react-bootstrap";
 const NotFounde = () => {
   return (
     <Container>
