@@ -5,6 +5,7 @@ import Item from "./Item";
 import { SliderHeader } from "./SliderHeader";
 import SliderMain from "./SliderMain";
 import Testbutton from "../Testbutton/Testbutton";
+
  
 
 const Slider = (props) => {

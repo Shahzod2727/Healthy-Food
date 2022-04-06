@@ -25,17 +25,11 @@ export default styled.div`
     left: 0;
     right: 0;
     bottom: 0;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;  /* Centering y-axis */
-    // align-items :center; /*
   }
   p {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    /* or 150% */
-
     display: flex;
     align-items: center;
     text-align: center;
@@ -46,8 +40,6 @@ export default styled.div`
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
-
     text-align: center;
     text-transform: uppercase;
     display: flex;
@@ -64,7 +56,6 @@ export default styled.div`
     color: #000000;
     opacity: 0.7;
     text-align: center;
-    // text-transform: uppercase;
     display: flex;
     justify-content: center;
     align-items: center;
