@@ -17,7 +17,7 @@ const Contact = () => {
 
           <div className="contact-main">
             <input className="input" type="text" placeholder="Enter your message" />
-            <button className="buttontest">Send</button>
+            <button type="button" className="buttontest">Send</button>
           </div>
         </div>
       </Container>

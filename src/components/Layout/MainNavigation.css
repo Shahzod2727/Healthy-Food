@@ -27,3 +27,13 @@
 .navbar-light .navbar-nav .nav-link {
   margin-left: 10px;
 }
+
+
+
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}

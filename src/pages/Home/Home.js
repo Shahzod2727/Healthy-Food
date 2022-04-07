@@ -5,11 +5,13 @@ import Header from "../../components/Header/Header";
 import Features from "../../components/Features/Features";
 import MenuItem from "../../components/Menu/MenuItem";
 import TakeAway from "../../components/TakeAway/TakeAway";
-import Slider from "../../components/Slider/Slider";
+// import Slider from "../../components/Slider/Slider";
 import SliderHeader from "../../components/Slider/SliderHeader";
 import Carousel from "../../components/Carousel/Carousel";
 // import Swiper from "../../components/Swiper/Swiper";
 import Contact from "../../components/Contact/Contact";
+// import Footer from "../Footer/Footer";
+import Footer from "../../components/Footer/Footer";
 const Home = () => {
   // xs, extra-small: 0px
   // sm, small: 600px
@@ -29,6 +31,9 @@ const Home = () => {
         <Carousel />
       </Container>
       <Contact />
+      {/* <Contact /> */}
+      <Footer/>
+      
     </>
   );
 };

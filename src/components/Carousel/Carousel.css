@@ -1,6 +1,6 @@
 .Carousel {
   margin-top: 70px;
-  padding: 0px 30px;
+  padding: 0px 30px 120px 30px;
 }
 
 .Carousel .card-box {
@@ -30,9 +30,14 @@
 }
 
 .css-1algrk9-MuiRating-root {
+  display: flex;
   align-items: center !important;
-  display: flex !important;
   justify-content: center !important;
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
 
 .carousel-content h1 {
@@ -60,4 +65,37 @@
   align-items: center;
   text-align: center;
   margin-top: 3px;
+}
+
+@media (max-width: 991px) {
+  .Carousel {
+    margin-top: 60px;
+    padding: 0px 20px 100px 20px;
+  }
+  .carousel-content p {
+    margin-top: 50px;
+    padding: 0px 70px;
+  }
+}
+
+@media (max-width: 776px) {
+  .Carousel {
+    margin-top: 50px;
+    padding: 0px 15px 60px 15px;
+  }
+  .carousel-content p {
+    margin-top: 45px;
+    padding: 0px 20px;
+  }
+}
+
+@media (max-width: 392px) {
+  .Carousel {
+    margin-top: 40px;
+    padding: 0px 15px 50px 15px;
+  }
+  .carousel-content p {
+    margin-top: 40px;
+    padding: 0px 5px;
+  }
 }
